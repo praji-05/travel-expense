@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: #2E8B57;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.search-box input {
+    padding: 5px;
+}
+
+.search-box button {
+    padding: 6px 10px;
+    background: white;
+    border: none;
+    cursor: pointer;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+}
+
+.welcome {
+    padding: 20px;
+    text-align: center;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+    padding: 20px;
+}
+
+.gallery-item {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    color: white;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+}
+
+.caption {
+    background: rgba(0,0,0,0.5);
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+    font-size: 1em;
+}
+
+.content {
+    padding: 20px;
+}
+
+.content-item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.content-item img {
+    width: 300px;
+    border-radius: 8px;
+}
+
+footer {
+    background: #2E8B57;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
